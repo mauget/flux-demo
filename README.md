@@ -1,4 +1,4 @@
-# Flux Intro
+# Flux Demo
 
 This is a comparison project to Redux intro
 https://github.com/mauget/redux-intro. The intent is to explore

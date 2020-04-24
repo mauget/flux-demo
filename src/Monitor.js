@@ -1,8 +1,8 @@
 import React from 'react';
-import {connect} from 'react-redux';
 
-function Monitor(props) {
+export default function Monitor(props) {
     const {count} = {...props};
+    console.log('monitor props', props);
 
     return (
         <div className={"flex-container"}>
@@ -13,7 +13,3 @@ function Monitor(props) {
         </div>
     );
 }
-
-const mapStateToProps = (state) => ({count: state.count});
-
-export default connect(mapStateToProps)(Monitor);

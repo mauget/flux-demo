@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.5957597" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f432135f-7e28-46f4-b14c-f18091f91132" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/container/AppActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/container/AppContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/container/AppDispatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/container/AppStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/ActionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducer.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +27,13 @@
   <component name="ElmWorkspace">
     <elmProjects />
     <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <excluded-from-favorite>
@@ -30,6 +50,12 @@
       </branch-storage>
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1axrK6mNffnjYeNxwZIHsM0Bprv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,7 +76,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/container" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -62,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587688018768</updated>
-      <workItem from="1587688020029" duration="1885000" />
+      <workItem from="1587688020029" duration="24747000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1587689586182</created>
@@ -71,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587689586182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init">
+      <created>1587690014668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587690014668</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,10 +122,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="441" y="111" key="CommitChangelistDialog2" timestamp="1587689586075">
+    <state x="602" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587729569111">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state x="441" y="111" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1587689586075" />
+    <state x="602" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1587729569111" />
+    <state x="553" y="397" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587749459396">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="553" y="397" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/50.23.1630.1027@50.23.1630.1027" timestamp="1587749459396" />
+    <state x="441" y="111" key="CommitChangelistDialog2" timestamp="1587690014557">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="441" y="111" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1587690014557" />
+    <state x="212" y="114" key="DiffContextDialog" timestamp="1587749827475">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="212" y="114" key="DiffContextDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1587749827475" />
+    <state x="731" y="439" key="Github.ShareDialog" timestamp="1587690042213">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="731" y="439" key="Github.ShareDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1587690042213" />
     <state width="1586" height="272" key="GridCell.Tab.0.bottom" timestamp="1587689682502">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
@@ -102,10 +158,18 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state width="1586" height="272" key="GridCell.Tab.0.right/50.23.1630.1027@50.23.1630.1027" timestamp="1587689682501" />
+    <state x="639" y="245" key="RollbackChangesDialog" timestamp="1587749831928">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="639" y="245" key="RollbackChangesDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1587749831928" />
     <state x="365" y="175" key="SettingsEditor" timestamp="1587689006288">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="365" y="175" key="SettingsEditor/50.23.1630.1027@50.23.1630.1027" timestamp="1587689006288" />
+    <state x="151" y="123" width="1315" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587750291901">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="151" y="123" width="1315" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1587750291901" />
     <state x="652" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587689569462">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
@@ -114,5 +178,17 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="620" y="331" key="git4idea.merge.GitPullDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1587689254439" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1587747936623">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/50.23.1630.1027@50.23.1630.1027" timestamp="1587747936623" />
+    <state x="607" y="400" key="scopes" timestamp="1587731059317">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="607" y="400" key="scopes/50.23.1630.1027@50.23.1630.1027" timestamp="1587731059317" />
+    <state x="471" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1587748663049">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="471" y="248" width="672" height="678" key="search.everywhere.popup/50.23.1630.1027@50.23.1630.1027" timestamp="1587748663049" />
   </component>
 </project>
