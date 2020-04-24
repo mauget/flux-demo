@@ -8,10 +8,11 @@ class AppStore extends ReduceStore {
         super(AppDispatcher);
     }
 
+    // noinspection JSUnusedGlobalSymbols
     getInitialState() {
         return OrderedMap({count: 42});
     }
-
+    // noinspection JSUnusedGlobalSymbols
     reduce(state, action) {
         switch (action.type) {
             case ActionTypes.ACTION_INCREMENT:

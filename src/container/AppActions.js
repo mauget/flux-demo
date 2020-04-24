@@ -2,7 +2,7 @@ import * as ActionTypes from "./ActionTypes";
 import {AppDispatcher} from "./AppDispatcher";
 
 const Actions = {
-    increment(count) {
+    increment (count) {
         AppDispatcher.dispatch({
             type: ActionTypes.ACTION_INCREMENT,
             count,

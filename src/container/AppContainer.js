@@ -4,11 +4,9 @@ import {Container} from "flux/utils";
 import AppActions from "./AppActions";
 import Monitor from "../Monitor";
 
-function getStores() {
-    return [AppStore];
-}
+const getStores = () => [AppStore];
 
-function getState() {
+const getState = () => {
     return {
         count: AppStore.getState().get('count'),
 
