@@ -4,7 +4,10 @@
     <option name="SPLITTER_PROPORTION" value="0.5957597" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f432135f-7e28-46f4-b14c-f18091f91132" name="Default Changelist" comment="" />
+    <list default="true" id="f432135f-7e28-46f4-b14c-f18091f91132" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587688018768</updated>
-      <workItem from="1587688020029" duration="25072000" />
+      <workItem from="1587688020029" duration="26029000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1587689586182</created>
@@ -104,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587750352472</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Post-npx react-codemod rename-unsafe-lifecycles">
+      <created>1587750942999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587750942999</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +123,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Correctly rendering and updating with Flux" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correctly rendering and updating with Flux" />
+    <MESSAGE value="Post-npx react-codemod rename-unsafe-lifecycles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post-npx react-codemod rename-unsafe-lifecycles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="602" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587729569111">
@@ -124,10 +135,10 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="553" y="397" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/50.23.1630.1027@50.23.1630.1027" timestamp="1587749459396" />
-    <state x="441" y="111" key="CommitChangelistDialog2" timestamp="1587750352309">
+    <state x="441" y="111" key="CommitChangelistDialog2" timestamp="1587750942893">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state x="441" y="111" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1587750352309" />
+    <state x="441" y="111" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1587750942893" />
     <state x="212" y="114" key="DiffContextDialog" timestamp="1587749827475">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
@@ -160,6 +171,10 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="365" y="175" key="SettingsEditor/50.23.1630.1027@50.23.1630.1027" timestamp="1587689006288" />
+    <state x="407" y="148" key="Vcs.Push.Dialog.v2" timestamp="1587751246553">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="407" y="148" key="Vcs.Push.Dialog.v2/50.23.1630.1027@50.23.1630.1027" timestamp="1587751246553" />
     <state x="151" y="123" width="1315" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587750291901">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
