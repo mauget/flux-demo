@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f432135f-7e28-46f4-b14c-f18091f91132" name="Default Changelist" comment="" />
+    <list default="true" id="f432135f-7e28-46f4-b14c-f18091f91132" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,19 @@
     <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1axrK6mNffnjYeNxwZIHsM0Bprv" />
@@ -24,8 +41,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
@@ -38,14 +62,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587688018768</updated>
-      <workItem from="1587688020029" duration="1335000" />
+      <workItem from="1587688020029" duration="1885000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1587689586182</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587689586182</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="441" y="111" key="CommitChangelistDialog2" timestamp="1587689586075">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="441" y="111" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1587689586075" />
+    <state width="1586" height="272" key="GridCell.Tab.0.bottom" timestamp="1587689682502">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1586" height="272" key="GridCell.Tab.0.bottom/50.23.1630.1027@50.23.1630.1027" timestamp="1587689682502" />
+    <state width="1586" height="272" key="GridCell.Tab.0.center" timestamp="1587689682501">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1586" height="272" key="GridCell.Tab.0.center/50.23.1630.1027@50.23.1630.1027" timestamp="1587689682501" />
+    <state width="1586" height="272" key="GridCell.Tab.0.left" timestamp="1587689682500">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1586" height="272" key="GridCell.Tab.0.left/50.23.1630.1027@50.23.1630.1027" timestamp="1587689682500" />
+    <state width="1586" height="272" key="GridCell.Tab.0.right" timestamp="1587689682501">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1586" height="272" key="GridCell.Tab.0.right/50.23.1630.1027@50.23.1630.1027" timestamp="1587689682501" />
     <state x="365" y="175" key="SettingsEditor" timestamp="1587689006288">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>

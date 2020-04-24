@@ -1,9 +1,6 @@
-# Redux Intro
+# Flux Intro
 
-We forked and extended this application from a Redux Intro 
-mentioned in the following third-party blog about learning
-now Redux works:
-
-[https://daveceddia.com/how-does-redux-work/](https://daveceddia.com/how-does-redux-work/)
-
-To run it, issue `yarn start` from the project root.
+This is a comparison project to Redux intro
+https://github.com/mauget/redux-intro. The intent is to explore
+the major differences in wiring Flux to an application vs
+using Redux.
