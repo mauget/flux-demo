@@ -1,7 +1,9 @@
 import React, {Fragment} from 'react';
-import {MonitorContainer} from "./container/AppContainer";
+import {Container} from "flux/utils";
+import {getState, getStores} from "./container/AppContainer";
+import {ConnectedMonitor} from "./Monitor";
 
-export default function App(props) {
+function App(props) {
     const {count, onIncrement, onDecrement, badAction} = {...props};
     console.log('App props', props);
 
@@ -17,11 +19,13 @@ export default function App(props) {
                 </div>
             </div>
             <br/>
-            <MonitorContainer/>
+            <ConnectedMonitor/>
             <br/>
-            <MonitorContainer/>
+            <ConnectedMonitor/>
             <br/>
-            <MonitorContainer/>
+            <ConnectedMonitor/>
         </Fragment>
     );
 }
+
+export const ConnectedApp = Container.createFunctional(App, getStores, getState);

@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
 import './app.css';
-import AppContainer from "./container/AppContainer";
+import {ConnectedApp} from "./App";
 
-render(<AppContainer />, document.getElementById('root'));
+render(<ConnectedApp />, document.getElementById('root'));

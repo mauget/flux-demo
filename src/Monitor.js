@@ -1,6 +1,8 @@
 import React from 'react';
+import {Container} from "flux/utils";
+import {getState, getStores} from "./container/AppContainer";
 
-export default function Monitor(props) {
+function Monitor(props) {
     const {count} = {...props};
     console.log('monitor props', props);
 
@@ -13,3 +15,5 @@ export default function Monitor(props) {
         </div>
     );
 }
+
+export const ConnectedMonitor = Container.createFunctional(Monitor, getStores, getState);
