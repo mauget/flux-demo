@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f432135f-7e28-46f4-b14c-f18091f91132" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/AppActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/AppActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/AppDispatcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/AppDispatcher.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/container/AppStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/AppStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +107,7 @@
       <updated>1587688018768</updated>
       <workItem from="1587688020029" duration="27620000" />
       <workItem from="1587753176378" duration="573000" />
-      <workItem from="1587774935107" duration="222000" />
+      <workItem from="1587774935107" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1587689586182</created>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587753714651</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Prior to npx rename unsafe">
+      <created>1587775427209</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587775427209</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +170,8 @@
     <MESSAGE value="Post-npx react-codemod rename-unsafe-lifecycles" />
     <MESSAGE value="Update dependencies" />
     <MESSAGE value="Lint green" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lint green" />
+    <MESSAGE value="Prior to npx rename unsafe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prior to npx rename unsafe" />
   </component>
   <component name="WindowStateProjectService">
     <state x="602" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587729569111">
@@ -176,10 +182,10 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="553" y="397" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/50.23.1630.1027@50.23.1630.1027" timestamp="1587753514188" />
-    <state x="441" y="111" key="CommitChangelistDialog2" timestamp="1587753714523">
+    <state x="441" y="111" key="CommitChangelistDialog2" timestamp="1587775427028">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state x="441" y="111" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1587753714523" />
+    <state x="441" y="111" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1587775427028" />
     <state x="212" y="114" key="DiffContextDialog" timestamp="1587749827475">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
@@ -188,22 +194,22 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="731" y="439" key="Github.ShareDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1587690042213" />
-    <state width="1586" height="272" key="GridCell.Tab.0.bottom" timestamp="1587775089052">
+    <state width="1586" height="272" key="GridCell.Tab.0.bottom" timestamp="1587775507772">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state width="1586" height="272" key="GridCell.Tab.0.bottom/50.23.1630.1027@50.23.1630.1027" timestamp="1587775089052" />
-    <state width="1586" height="272" key="GridCell.Tab.0.center" timestamp="1587775089050">
+    <state width="1586" height="272" key="GridCell.Tab.0.bottom/50.23.1630.1027@50.23.1630.1027" timestamp="1587775507772" />
+    <state width="1586" height="272" key="GridCell.Tab.0.center" timestamp="1587775507771">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state width="1586" height="272" key="GridCell.Tab.0.center/50.23.1630.1027@50.23.1630.1027" timestamp="1587775089050" />
-    <state width="1586" height="272" key="GridCell.Tab.0.left" timestamp="1587775089049">
+    <state width="1586" height="272" key="GridCell.Tab.0.center/50.23.1630.1027@50.23.1630.1027" timestamp="1587775507771" />
+    <state width="1586" height="272" key="GridCell.Tab.0.left" timestamp="1587775507771">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state width="1586" height="272" key="GridCell.Tab.0.left/50.23.1630.1027@50.23.1630.1027" timestamp="1587775089049" />
-    <state width="1586" height="272" key="GridCell.Tab.0.right" timestamp="1587775089051">
+    <state width="1586" height="272" key="GridCell.Tab.0.left/50.23.1630.1027@50.23.1630.1027" timestamp="1587775507771" />
+    <state width="1586" height="272" key="GridCell.Tab.0.right" timestamp="1587775507772">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state width="1586" height="272" key="GridCell.Tab.0.right/50.23.1630.1027@50.23.1630.1027" timestamp="1587775089051" />
+    <state width="1586" height="272" key="GridCell.Tab.0.right/50.23.1630.1027@50.23.1630.1027" timestamp="1587775507772" />
     <state x="639" y="245" key="RollbackChangesDialog" timestamp="1587749831928">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>

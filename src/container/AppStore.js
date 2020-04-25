@@ -8,7 +8,7 @@ class AppStore extends ReduceStore {
         super(AppDispatcher);
     }
 
-    // Not really unused ...
+    // Not really unused ... import of an export in ReduceStore fools the inter
     // noinspection JSUnusedGlobalSymbols
     getInitialState() {
         return OrderedMap({count: 42});
