@@ -1,6 +1,6 @@
 import {OrderedMap} from 'immutable';
 import {ReduceStore} from 'flux/utils';
-import {AppDispatcher} from "./AppDispatcher";
+import AppDispatcher from "./AppDispatcher";
 import * as ActionTypes from "./ActionTypes";
 
 class AppStore extends ReduceStore {
@@ -8,10 +8,13 @@ class AppStore extends ReduceStore {
         super(AppDispatcher);
     }
 
+    // Not really unused ...
     // noinspection JSUnusedGlobalSymbols
     getInitialState() {
         return OrderedMap({count: 42});
     }
+
+    // Not really unused ...
     // noinspection JSUnusedGlobalSymbols
     reduce(state, action) {
         switch (action.type) {

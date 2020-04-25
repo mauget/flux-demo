@@ -1,5 +1,5 @@
 import * as ActionTypes from "./ActionTypes";
-import {AppDispatcher} from "./AppDispatcher";
+import AppDispatcher from "./AppDispatcher";
 
 const Actions = {
     increment (count) {
