@@ -109,7 +109,7 @@
       <workItem from="1587688020029" duration="27620000" />
       <workItem from="1587753176378" duration="573000" />
       <workItem from="1587774935107" duration="2340000" />
-      <workItem from="1587844829134" duration="677000" />
+      <workItem from="1587844829134" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1587689586182</created>
@@ -174,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587845455426</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Moved each Flux connection to its component">
+      <created>1587845519083</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587845519083</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,11 +207,11 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="553" y="397" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/50.23.1630.1027@50.23.1630.1027" timestamp="1587753514188" />
-    <state x="446" y="111" key="CommitChangelistDialog2" timestamp="1587845455285">
+    <state x="446" y="111" key="CommitChangelistDialog2" timestamp="1587845518981">
       <screen x="56" y="23" width="1624" height="1027" />
     </state>
     <state x="441" y="111" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1587776482513" />
-    <state x="446" y="111" key="CommitChangelistDialog2/56.23.1624.1027@56.23.1624.1027" timestamp="1587845455285" />
+    <state x="446" y="111" key="CommitChangelistDialog2/56.23.1624.1027@56.23.1624.1027" timestamp="1587845518981" />
     <state x="212" y="114" key="DiffContextDialog" timestamp="1587749827475">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
@@ -238,11 +245,11 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="365" y="175" key="SettingsEditor/50.23.1630.1027@50.23.1630.1027" timestamp="1587753128202" />
-    <state x="412" y="148" key="Vcs.Push.Dialog.v2" timestamp="1587845457498">
+    <state x="412" y="148" key="Vcs.Push.Dialog.v2" timestamp="1587845521065">
       <screen x="56" y="23" width="1624" height="1027" />
     </state>
     <state x="407" y="148" key="Vcs.Push.Dialog.v2/50.23.1630.1027@50.23.1630.1027" timestamp="1587776484783" />
-    <state x="412" y="148" key="Vcs.Push.Dialog.v2/56.23.1624.1027@56.23.1624.1027" timestamp="1587845457498" />
+    <state x="412" y="148" key="Vcs.Push.Dialog.v2/56.23.1624.1027@56.23.1624.1027" timestamp="1587845521065" />
     <state x="151" y="123" width="1315" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587750291901">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
