@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f432135f-7e28-46f4-b14c-f18091f91132" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monitor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/AppContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/AppContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/AppStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/AppStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1axrK6mNffnjYeNxwZIHsM0Bprv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -111,7 +109,7 @@
       <workItem from="1587688020029" duration="27620000" />
       <workItem from="1587753176378" duration="573000" />
       <workItem from="1587774935107" duration="2340000" />
-      <workItem from="1587844829134" duration="466000" />
+      <workItem from="1587844829134" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1587689586182</created>
@@ -169,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587776482643</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Moved each Flux connection to its component">
+      <created>1587845455426</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587845455426</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +188,8 @@
     <MESSAGE value="Lint green" />
     <MESSAGE value="Prior to npx rename unsafe" />
     <MESSAGE value="Comment about unused globals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment about unused globals" />
+    <MESSAGE value="Moved each Flux connection to its component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved each Flux connection to its component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="602" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587729569111">
@@ -194,10 +200,11 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="553" y="397" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/50.23.1630.1027@50.23.1630.1027" timestamp="1587753514188" />
-    <state x="441" y="111" key="CommitChangelistDialog2" timestamp="1587776482513">
-      <screen x="50" y="23" width="1630" height="1027" />
+    <state x="446" y="111" key="CommitChangelistDialog2" timestamp="1587845455285">
+      <screen x="56" y="23" width="1624" height="1027" />
     </state>
     <state x="441" y="111" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1587776482513" />
+    <state x="446" y="111" key="CommitChangelistDialog2/56.23.1624.1027@56.23.1624.1027" timestamp="1587845455285" />
     <state x="212" y="114" key="DiffContextDialog" timestamp="1587749827475">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
@@ -222,26 +229,29 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state width="1586" height="272" key="GridCell.Tab.0.right/50.23.1630.1027@50.23.1630.1027" timestamp="1587778749567" />
-    <state x="639" y="245" key="RollbackChangesDialog" timestamp="1587777194403">
-      <screen x="50" y="23" width="1630" height="1027" />
+    <state x="643" y="245" key="RollbackChangesDialog" timestamp="1587845404398">
+      <screen x="56" y="23" width="1624" height="1027" />
     </state>
     <state x="639" y="245" key="RollbackChangesDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1587777194403" />
+    <state x="643" y="245" key="RollbackChangesDialog/56.23.1624.1027@56.23.1624.1027" timestamp="1587845404398" />
     <state x="365" y="175" key="SettingsEditor" timestamp="1587753128202">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="365" y="175" key="SettingsEditor/50.23.1630.1027@50.23.1630.1027" timestamp="1587753128202" />
-    <state x="407" y="148" key="Vcs.Push.Dialog.v2" timestamp="1587776484783">
-      <screen x="50" y="23" width="1630" height="1027" />
+    <state x="412" y="148" key="Vcs.Push.Dialog.v2" timestamp="1587845457498">
+      <screen x="56" y="23" width="1624" height="1027" />
     </state>
     <state x="407" y="148" key="Vcs.Push.Dialog.v2/50.23.1630.1027@50.23.1630.1027" timestamp="1587776484783" />
+    <state x="412" y="148" key="Vcs.Push.Dialog.v2/56.23.1624.1027@56.23.1624.1027" timestamp="1587845457498" />
     <state x="151" y="123" width="1315" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587750291901">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="151" y="123" width="1315" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1587750291901" />
-    <state x="652" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587689569462">
-      <screen x="50" y="23" width="1630" height="1027" />
+    <state x="656" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587845413691">
+      <screen x="56" y="23" width="1624" height="1027" />
     </state>
     <state x="652" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/50.23.1630.1027@50.23.1630.1027" timestamp="1587689569462" />
+    <state x="656" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/56.23.1624.1027@56.23.1624.1027" timestamp="1587845413691" />
     <state x="620" y="331" key="git4idea.merge.GitPullDialog" timestamp="1587689254439">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
